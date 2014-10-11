@@ -1,0 +1,127 @@
+body {
+  font-family: 'Inder', sans-serif;
+}
+
+nav.visible {
+  padding-top:1%;
+  width: 900px;
+  position: fixed;
+  left: 31.5%;
+  margin: auto;
+  overflow: hidden;
+  z-index: 10;
+}
+
+nav a{
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 18px;
+  color: #ffffff;
+  margin:0px;
+  text-decoration: none;
+}
+
+.topbar{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background: rgba(105,0,32,.6);
+    top: 0%;
+  z-index: 10;
+}
+
+.header h1{
+  font-size: 120px;
+  position: relative;
+  margin: 70px;
+  color: rgba(105,0,32,1);
+ }
+
+.note{
+  font-size: 25px;
+  position: relative;
+  left: 3%;
+  top: -8%;
+  letter-spacing: .168em;
+}
+
+.header {
+  background-color: rgba(105,0,32,.1);
+  height: 900px;
+}
+
+.general {
+  display: block;
+  height: 420px;
+  background-color: rgba(105,0,32,.9);
+}
+
+.photos {
+  display: block;
+  height: 2000px;
+  background-color: rgba(105,0,32,.1);
+}
+
+.footer {
+  display: block;
+  height: 100px;
+  background-color: rgba(105,0,32,.6);
+}
+
+img {
+  height: 500px;
+  position: relative;
+  left: 3%;
+}
+
+a{
+  
+    text-decoration: none;
+}
+
+.general p {
+  color: white;
+  font-size: 25px;
+  letter-spacing: .1em;
+  margin: 100px;
+}
+
+.general h1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 8%;
+}
+
+.photos h1 {
+  color: rgba(105,0,32,1);
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 8%;
+}
+.photos p {
+  color: rgba(105,0,32,1);
+  font-size: 25px;
+  letter-spacing: .1em;
+  margin: 100px;
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+    width:200px;
+    height: 300px;
+}

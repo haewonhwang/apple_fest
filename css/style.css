@@ -1,0 +1,108 @@
+.header { 
+  background: url("../img/cover.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 900px;
+}
+
+body {
+  font-family: 'Inder', sans-serif;
+}
+
+.header p{
+  color: white;
+  margin:auto;
+}
+
+.ithaca{
+  position: relative;
+  left: 5%;
+  font-size: 45px;
+  letter-spacing: .15em;
+}
+.harvest{
+  font-size: 100px;
+  letter-spacing: .04em;
+}
+
+.fest{
+  font-size: 120px;
+  font-weight:bolder;
+  letter-spacing: .33em;
+}
+.date {
+  font-size: 70px;
+  letter-spacing: .50em;
+}
+
+.logo{
+  margin:auto;
+  position: relative;
+  top: 18%;
+  left: 10%;
+}
+
+nav.visible {
+  padding-top:1%;
+  width: 900px;
+  position: fixed;
+  left: 31.5%;
+  margin: auto;
+  overflow: hidden;
+  z-index: 10;
+}
+
+nav a{
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 18px;
+  color: #ffffff;
+  margin:0px;
+  text-decoration: none;
+}
+
+.topbar{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background: rgba(105,0,32,.6);
+    top: 0%;
+  z-index: 10;
+}
+
+.history {
+  display: block;
+  height: 420px;
+  background-color: rgba(105,0,32,.9);
+}
+
+.sponsors {
+  display: block;
+  height: 300px;
+}
+
+.footer {
+  display: block;
+  height: 100px;
+  background-color: rgba(105,0,32,.6);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 8%;
+}
+
+p {
+  color: white;
+  font-size: 25px;
+  letter-spacing: .1em;
+  margin: 100px;
+}
+
+.sponsors img{
+  position: relative;
+  left: 20%;
+  top: 13%;
+}
