@@ -1,13 +1,34 @@
 body {
-  font-family: 'Inder', sans-serif;
+  font-family: "Goudy Old Style",serif;
+  margin: 0; 
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 8%;
+}
+
+h2 {
+  color: white;
+  text-align: center
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  letter-spacing: .1em;
+  margin: 20px 160px 40px 160px;
 }
 
 nav.visible {
   padding-top:1%;
   width: 900px;
   position: fixed;
-  left: 31.5%;
-  margin: auto;
+  right: -25%;
+  float:right;
   overflow: hidden;
   z-index: 10;
 }
@@ -21,107 +42,76 @@ nav a{
   text-decoration: none;
 }
 
-.topbar{
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    background: rgba(105,0,32,.6);
-    top: 0%;
+.left {
+  padding-top:0%;
+  position: fixed;
+  left: 0%;
+  margin: 0px;
+  overflow: hidden;
   z-index: 10;
 }
 
-.header h1{
-  font-size: 120px;
-  position: relative;
-  margin: 70px;
-  color: rgba(105,0,32,1);
- }
-
-.note{
-  font-size: 25px;
-  position: relative;
-  left: 3%;
-  top: -8%;
-  letter-spacing: .168em;
+.bold {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-.header {
-  background-color: rgba(105,0,32,.1);
-  height: 900px;
+.topbar{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background: rgba(105,0,32,.6);
+  top: 0%;
+  z-index: 10;
 }
 
-.general {
-  display: block;
-  height: 420px;
+.boxed {
+  width: 1100px;
+  margin: 5% 15%;
+}
+
+.about {
+  overflow: hidden;
   background-color: rgba(105,0,32,.9);
 }
 
-.photos {
-  display: block;
-  height: 2000px;
-  background-color: rgba(105,0,32,.1);
+.map{
+  margin: 20px 160px 40px 160px;
+  max-width:750px;
+}
+
+.todo{
+  height: 175px;
+  float:left;
+  margin: 0px 40px 40px 160px;
+}
+
+.pets {
+  height: 175px;
+  float:right;
+  margin: 0px 160px 40px 40px;
+}
+
+.move{
+  margin: 90px 160px 40px 160px;
 }
 
 .footer {
-  display: block;
-  height: 100px;
+  height: 200px;
+  overflow: hidden;
   background-color: rgba(105,0,32,.6);
 }
 
-img {
-  height: 500px;
-  position: relative;
-  left: 3%;
+.footer img{
+  max-height: 200px;
+  float: left;
+  margin: 0px -600px 0px 600px;
 }
 
-a{
-  
-    text-decoration: none;
-}
-
-.general p {
+.footer p {
   color: white;
-  font-size: 25px;
-  letter-spacing: .1em;
-  margin: 100px;
-}
-
-.general h1 {
-  color: white;
+  margin:auto;
   text-align: center;
-  font-size: 30px;
+  top:40%;
   position: relative;
-  top: 8%;
-}
-
-.photos h1 {
-  color: rgba(105,0,32,1);
-  text-align: center;
-  font-size: 30px;
-  position: relative;
-  top: 8%;
-}
-.photos p {
-  color: rgba(105,0,32,1);
-  font-size: 25px;
-  letter-spacing: .1em;
-  margin: 100px;
-}
-
-div.img {
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid #ffffff;
-    height: auto;
-    width: auto;
-    float: left;
-    text-align: center;
-}
-
-div.img img {
-    display: inline;
-    margin: 5px;
-    border: 1px solid #ffffff;
-    width:200px;
-    height: 300px;
 }

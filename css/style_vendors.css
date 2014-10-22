@@ -1,13 +1,43 @@
 body {
-  font-family: 'Inder', sans-serif;
+  font-family: "Goudy Old Style",serif;
+  margin: 0; 
 }
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 8%;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+.farmersp, .exhibitorsp, .foodp {
+  color: white;
+  font-size: 20px;
+  letter-spacing: .1em;
+  margin: 20px 160px 40px 160px;
+}
+
+.winebeerp, .artisansp {
+  color: white;
+  text-align: right;
+  font-size: 20px;
+  letter-spacing: .1em;
+  margin: 20px 160px 40px 160px;
+}
+
 
 nav.visible {
   padding-top:1%;
   width: 900px;
   position: fixed;
-  left: 31.5%;
-  margin: auto;
+  right: -25%;
+  float:right;
   overflow: hidden;
   z-index: 10;
 }
@@ -21,34 +51,97 @@ nav a{
   text-decoration: none;
 }
 
-.topbar{
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    background: rgba(105,0,32,.6);
-    top: 0%;
+.left {
+  padding-top:0%;
+  position: fixed;
+  left: 0%;
+  margin: 0px;
+  overflow: hidden;
   z-index: 10;
 }
 
-.header h1{
-  font-size: 120px;
-  position: relative;
-  margin: 70px;
-  color: rgba(105,0,32,1);
- }
+.bold {
+  font-weight: bold;
+  text-decoration: underline;
+}
 
-.header {
-  background-color: rgba(105,0,32,.1);
-  height: 3050px;
+.topbar{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background: rgba(105,0,32,.6);
+  top: 0%;
+  z-index: 10;
+}
+
+.vendorlist{
+  width: 900px;
+  margin: 0px 0px 0px 180px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.top{
+  text-decoration: underline;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.boxed {
+  width: 1100px;
+  margin: 5% 15%;
+}
+
+.vendors {
+  overflow: hidden;
+  background-color: rgba(105,0,32,.7);
+}
+
+#farmers, #winebeer, #exhibitors, #artisans, #food {
+  padding-top: 40px;
+}
+
+.farmers, .food{
+  height: 270px;
+  float:left;
+  margin: 40px 40px 40px 160px;
+}
+
+.exhibitors {
+  height: 270px;
+  float:left;
+  margin: -40px 40px 40px 160px;
+}
+
+.winebeer{
+  height: 270px;
+  float:right;
+  margin: -30px 160px 40px 40px;
+}
+
+.artisans {
+  height: 270px;
+  float:right;
+  margin: 100px 160px 40px 40px;
 }
 
 .footer {
-  display: block;
-  height: 100px;
+  height: 200px;
+  overflow: hidden;
   background-color: rgba(105,0,32,.6);
 }
 
-.vendlist {
-position: relative;
-  left: 3%;
+.footer img{
+  max-height: 200px;
+  float: left;
+  margin: 0px -600px 0px 600px;
+}
+
+.footer p {
+  color: white;
+  margin:auto;
+  text-align: center;
+  top:40%;
+  position: relative;
 }

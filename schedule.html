@@ -4,69 +4,83 @@
   <title>Schedule</title>
   <link href='http://fonts.googleapis.com/css?family=Inder' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/style_schedule.css">
+  <script src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
 </head>
 
 <body>
-<div class = "topbar">
-  <nav class = "visible">
-        <a href = "about.html">ABOUT</a>
-        <a href = "schedule.html">SCHEDULE</a>
-        <a href = "index.html">HOME</a>
-        <a href = "vendors.html">VENDORS</a>
-        <a href = "contact.html">CONTACT</a>
-      </nav>
-</div>
-
-  <section id = "header">
-    <div class = "header">
-      <h1>SCHEDULE: OCTOBER 3-5</h1>
-      <p> note: formatting pending </p>
-      <div class = "schedule">
-      <h2> Friday </h2>
-      <p>5-8pm - First Friday Gallery Night - A walkable tour of downtown galleries, www. gallerynightithaca.com <br>
-8pm – Feature Movie: Pulp Fiction -the State Theater</p>
-      <h2> Saturday </h2>
-      <p>10-5:30pm - First People’s Festival- Dewitt Park <br>
-10-4pm - 2nd Annual Sweet Ride Car Show – Press Bay Alley</p>
-      <h3> State Street Stage </h3>
-      <p>10-10:45AM        IC Voicestream <br>
-11-11:45AM        Evan D. Williams <br>
-12-12:45PM        Vitamin L <br>
-12:45-1:15           Danza Romani <br>
-1:15-1:45             June with Chandani Belly Dance Troupe <br>
-2-4PM                  Ageless Jazz Band <br>
-        4-6PM                  Samuel B. Lupowitz & The Ego Band</p>
-      <h3> Aurora Street Stage </h3>
-      <p>11-12PM               Moreland the Magician <br>
-12-12:45PM          ICircus <br>
-1-3PM                   Jomo and Johnnycake <br>
-3-4PM                   Sundown Sally <br>
-        4-6PM                   Regina O'Brien</p>
-      <h2> Sunday </h2>
-      <p>12 Noon - Apple Pie Bake Off and Judging– State Street Stage <br>
-10-4pm - 2nd Annual Sweet Ride Car Show- – Press Bay Alley</p>
-      <h3> State Street Stage </h3>
-      <p>10-11AM              Story Dance <br>
-11-12PM              Mirage Belly Dance <br>
-12-1PM                Apple Pie Bake Off Competition <br>
-1-2:45PM             Allen Rose & The Restless Elements <br>
-3-4PM                  Anna Coogan  & Johnny Dowd <br>
-        4-6PM                  Steve Southworth & the Rockabilly Rays</p>
-      <h3> Aurora Street Stage </h3>
-<p>12-12:45PM          ICircus <br>
-1-3PM                   East Hill Classic Jazz Duo <br>
-3-4PM                   Luke Gustafson
-4-6PM                   The Notorious Stringbusters</p>
-
-    </div>                              
-
-    </div>
-      </section>
-  
-<section id = "footer">
-  <div class = "footer">
+  <div class = "topbar">
+    <nav class = "visible">
+      <a class = "left" href = "index.html">HOME</a>
+      <a href = "about.html">ABOUT</a>
+      <a class = "bold" href = "schedule.html">SCHEDULE</a>
+      <a href = "vendors.html">VENDORS</a>
+      <a href = "contact.html">CONTACT</a>
+    </nav>
   </div>
-  </section>
 
-</body>
-</html>
+  <section id = "schedule">
+    <div class = "schedule">
+      <div class="boxed">
+        <div class = "info">
+          <h1> SCHEDULE </h1>
+          <hr>
+          <h2> Friday </h2>
+          <button class='toggleButton'>Hide / Show</button>
+          <div id='toggleBox'><p>5-8pm - First Friday Gallery Night - A walkable tour of downtown galleries, www. gallerynightithaca.com <br>
+            8pm – Feature Movie: Pulp Fiction -the State Theater</p></div>
+
+            <hr>
+            <h2> Saturday </h2>
+            <button class='toggleButton2'>Hide / Show</button>
+            <div id='toggleBox2'>
+              <p>10-5:30pm - First People’s Festival- Dewitt Park <br>
+                10-4pm - 2nd Annual Sweet Ride Car Show – Press Bay Alley</p>
+                <h3> State Street Stage </h3>
+                <p>10-10:45AM IC Voicestream <br>
+                  11-11:45AM Evan D. Williams <br>
+                  12-12:45PM Vitamin L <br>
+                  12:45-1:15 Danza Romani <br>
+                  1:15-1:45 June with Chandani Belly Dance Troupe <br>
+                  2-4PM Ageless Jazz Band <br>
+                  4-6PM Samuel B. Lupowitz and The Ego Band</p>
+                  <h3> Aurora Street Stage </h3>
+                  <p>11-12PM Moreland the Magician <br>
+                    12-12:45PM ICircus <br>
+                    1-3PM Jomo and Johnnycake <br>
+                    3-4PM Sundown Sally <br>
+                    4-6PM Regina O'Brien</p>
+                  </div>
+                  <hr>
+                  <h2> Sunday </h2>
+                  <button class='toggleButton3'>Hide / Show</button>
+                  <div id='toggleBox3'>
+                    <p>12 Noon - Apple Pie Bake Off and Judging– State Street Stage <br>
+                      10-4pm - 2nd Annual Sweet Ride Car Show- – Press Bay Alley</p>
+                      <h3> State Street Stage </h3>
+                      <p>10-11AM Story Dance <br>
+                        11-12PM Mirage Belly Dance <br>
+                        12-1PM Apple Pie Bake Off Competition <br>
+                        1-2:45PM Allen Rose and The Restless Elements <br>
+                        3-4PM Anna Coogan and Johnny Dowd <br>
+                        4-6PM Steve Southworth and the Rockabilly Rays</p>
+                        <h3> Aurora Street Stage </h3>
+                        <p>12-12:45PM ICircus <br>
+                          1-3PM East Hill Classic Jazz Duo <br>
+                          3-4PM Luke Gustafson
+                          4-6PM The Notorious Stringbusters</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <section id = "footer">
+                  <div class = "footer">
+                    <img class = "foot" src= "img/footer.png" alt = "foot">
+
+                    <p>Haewon Hwang Fall 2014</p>
+                  </div>
+                </section>
+                <script src='js/script_schedule.js'></script>
+              </body>
+              </html>

@@ -1,52 +1,34 @@
-.header { 
-  background: url("../img/cover.jpg") no-repeat center center fixed;
-  background-size: cover;
-  height: 900px;
-}
-
 body {
-  font-family: 'Inder', sans-serif;
+  font-family: "Goudy Old Style",serif;
+  margin: 0; 
 }
 
-.header p{
+h1 {
   color: white;
-  margin:auto;
-}
-
-.ithaca{
+  text-align: center;
+  font-size: 30px;
   position: relative;
-  left: 5%;
-  font-size: 45px;
-  letter-spacing: .15em;
-}
-.harvest{
-  font-size: 100px;
-  letter-spacing: .04em;
+  top: 8%;
 }
 
-.fest{
-  font-size: 120px;
-  font-weight:bolder;
-  letter-spacing: .33em;
-}
-.date {
-  font-size: 70px;
-  letter-spacing: .50em;
+h2 {
+  color: white;
+  text-align: center
 }
 
-.logo{
-  margin:auto;
-  position: relative;
-  top: 18%;
-  left: 10%;
+p {
+  color: white;
+  font-size: 20px;
+  letter-spacing: .1em;
+  margin: 20px 160px 40px 160px;
 }
 
 nav.visible {
   padding-top:1%;
   width: 900px;
   position: fixed;
-  left: 31.5%;
-  margin: auto;
+  right: -25%;
+  float:right;
   overflow: hidden;
   z-index: 10;
 }
@@ -60,49 +42,69 @@ nav a{
   text-decoration: none;
 }
 
-.topbar{
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    background: rgba(105,0,32,.6);
-    top: 0%;
+.left {
+  padding-top:0%;
+  position: fixed;
+  left: 0%;
+  margin: 0px;
+  overflow: hidden;
   z-index: 10;
 }
 
-.history {
-  display: block;
-  height: 420px;
-  background-color: rgba(105,0,32,.9);
+.left a{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.topbar{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background: rgba(105,0,32,.6);
+  top: 0%;
+  z-index: 10;
+}
+
+.head { 
+  background: url("../img/background.jpg") no-repeat center center;
+  height: 900px;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.vendors {
+  height: 100px;
+  overflow: hidden;
+  background-color: rgba(105,0,32,.7);
 }
 
 .sponsors {
-  display: block;
   height: 300px;
-}
-
-.footer {
-  display: block;
-  height: 100px;
-  background-color: rgba(105,0,32,.6);
-}
-
-h1 {
-  color: white;
-  text-align: center;
-  font-size: 30px;
-  position: relative;
-  top: 8%;
-}
-
-p {
-  color: white;
-  font-size: 25px;
-  letter-spacing: .1em;
-  margin: 100px;
+  background-color: rgba(105,0,32,.3);
 }
 
 .sponsors img{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 4%;
+}
+
+.footer {
+  height: 200px;
+  overflow: hidden;
+  background-color: rgba(105,0,32,.6);
+}
+
+.footer img{
+  max-height: 200px;
+  float: left;
+  margin: 0px -600px 0px 600px;
+}
+
+.footer p {
+  color: white;
+  margin:auto;
+  text-align: center;
+  top:40%;
   position: relative;
-  left: 20%;
-  top: 13%;
 }

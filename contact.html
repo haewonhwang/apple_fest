@@ -7,39 +7,56 @@
 </head>
 
 <body>
-<div class = "topbar">
-  <nav class = "visible">
-        <a href = "about.html">ABOUT</a>
-        <a href = "schedule.html">SCHEDULE</a>
-        <a href = "index.html">HOME</a>
-        <a href = "vendors.html">VENDORS</a>
-        <a href = "contact.html">CONTACT</a>
-      </nav>
-</div>
+  <div class = "topbar">
+    <nav class = "visible">
+      <a class = "left" href = "index.html">HOME</a>
+      <a href = "about.html">ABOUT</a>
+      <a href = "schedule.html">SCHEDULE</a>
+      <a href = "vendors.html">VENDORS</a>
+      <a class = "bold" href = "contact.html">CONTACT</a>
+    </nav>
+  </div>
 
-  <section id = "header">
-    <div class = "header">
-      <h1>CONTACT US</h1>
-      <p> note: formatting pending </p>
-      <a href = "mailto:hh474@cornell.edu"> Click here to send an email </a>
-      <p> Phone number: </p>
-      
+
+  <section id = "contact">
+    <div class = "contact">
+      <div class = "contactbox">
+
+<!--email form html/css coded with help from sanwebe.com-->
+        <form action="MAILTO:hh474@cornell.edu" method="get" class="email">
+          <h1>Send questions and feedback!</h1>
+          <label>
+            <span>Your Name :</span>
+            <input id="name" type="text" name="name" placeholder="Your Full Name">
+          </label>
+
+          <label>
+            <span>Your Email :</span>
+            <input id="email" type="email" name="email" placeholder="Valid Email Address">
+          </label>
+
+          <label>
+            <span>Message :</span>
+            <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
+          </label> 
+
+          <label>
+            <span>&nbsp;</span> 
+            <input type="submit" class="button" value="Send"> 
+          </label>    
+        </form>
+      </div>
     </div>
-      </section>
-  
-  <section id = "faq">
-  <div class = "faq">
-<h1>Frequently Asked Questions</h1>
-    <p> content pending </p>
-  </div>
   </section>
-  
-  
-<section id = "footer">
-  <div class = "footer">
-  </div>
+
+
+  <section id = "footer">
+    <div class = "footer">
+      <img class = "foot" src= "img/footer.png" alt = "foot">
+
+      <p>Haewon Hwang Fall 2014</p>
+    </div>
   </section>
 
 </body>
 </html>
-  
